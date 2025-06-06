@@ -16,7 +16,8 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-
+from  biblioteca.views import index # paginartamos la vista index de la app pagina
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('index/', index), #incluimos la url de la app pagina
 ]
