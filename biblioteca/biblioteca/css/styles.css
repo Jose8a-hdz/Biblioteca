@@ -1,0 +1,36 @@
+body {
+    background-color: #000000; /* Fondo negro */
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: #ffffff; /* Añadí color de texto blanco para contraste */
+    line-height: 1.5; /* Mejor legibilidad */
+}
+
+/* Estilos para mejorar la presentación de tu contenido */
+/* styles.css */
+h1 {
+    color: #dddddd;
+    margin-top: 36px;
+}
+
+h2, h3 {
+    color: #dddddd;
+    margin-top: 30px;
+}
+
+p {
+    margin-bottom: 15px;
+    padding: 0 20px;
+}
+
+footer {
+    background-color: #222222;
+    color: #aaaaaa;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
